@@ -13,13 +13,13 @@ import tailwindcssIcon from "@/assets/icons/tailwindcss.png";
 import shadcnuiIcon from "@/assets/icons/shadcn-ui.png";
 import pnpmIcon from "@/assets/icons/pnpm.png";
 import viteIcon from "@/assets/icons/vite.png";
-import prettiNinjaon from "@/assets/icons/prettier.png";
+import prettierIcon from "@/assets/icons/prettier.png"; // Corrected typo
 import nodejsIcon from "@/assets/icons/nodejs.png";
 import nestjsIcon from "@/assets/icons/nest-js.png";
 import expressjsIcon from "@/assets/icons/express-js.png";
 import prismaIcon from "@/assets/icons/prisma.png";
 import postgresIcon from "@/assets/icons/postgres.png";
-import dockNinjaon from "@/assets/icons/docker.png";
+import dockerIcon from "@/assets/icons/docker.png"; // Corrected typo
 import gitIcon from "@/assets/icons/git.png";
 import ubuntuIcon from "@/assets/icons/ubuntu.svg";
 import macosIcon from "@/assets/icons/macos.png";
@@ -32,7 +32,8 @@ import lightroomIcon from "@/assets/icons/lightroom.png";
 import ExpoIcon from "@/assets/icons/expo.png";
 import githubActionsIcon from "@/assets/icons/github-actions.png";
 import trpcIcon from "@/assets/icons/trpc.svg";
-export default function skills() {
+
+export default function Skills() {
   const data = [
     {
       title: "Web Development",
@@ -41,7 +42,6 @@ export default function skills() {
           name: "React.js",
           icon: reactIcon,
         },
-        
         {
           name: "JavaScript",
           icon: javascriptIcon,
@@ -50,9 +50,6 @@ export default function skills() {
           name: "HTML5",
           icon: html5Icon,
         },
-       
-
-        
       ],
     },
     {
@@ -79,13 +76,11 @@ export default function skills() {
           name: "GitHub Actions",
           icon: githubActionsIcon,
         },
-        
       ],
     },
     {
       title: "Languages",
       skills: [
-      
         {
           name: "Python",
           icon: pythonIcon,
@@ -100,18 +95,15 @@ export default function skills() {
       title: "Tools & Environment",
       skills: [
         {
-          name: "excel",
+          name: "macOS",
           icon: macosIcon,
         },
         {
           name: "VS Code",
           icon: vscodeIcon,
         },
-      
-       
       ],
     },
-    
   ];
 
   return (
@@ -140,7 +132,13 @@ export default function skills() {
   );
 }
 
-function SkillCard({ icon, name }: { icon: string; name: string }) {
+function SkillCard({
+  icon,
+  name,
+}: {
+  icon: StaticImageData; // Updated to handle StaticImageData
+  name: string;
+}) {
   return (
     <div className="group rounded-xl border-none p-5 text-center shadow-none transition-all duration-200 ease-linear hover:scale-110 hover:drop-shadow-xl">
       <div className="flex flex-col items-center gap-2">
