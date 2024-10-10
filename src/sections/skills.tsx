@@ -1,6 +1,6 @@
 import MotionDiv from "@/components/motion-div";
 import MotionList from "@/components/motion-list";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import reactIcon from "@/assets/icons/react.png";
 import nextjsIcon from "@/assets/icons/next-js.png";
 import vueIcon from "@/assets/icons/vue.png";
