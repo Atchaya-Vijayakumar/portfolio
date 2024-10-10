@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   authors: [
     { name: "Atchaya V", url: "https://github.com/Atchaya-Vijayakumar" },
   ],
-  description: "Atchaya portfolio website",
+  description: "Atchaya portfolio",
   openGraph: {
     title: "Atchaya| Portfolio",
     description: "Atchaya portfolio website",
