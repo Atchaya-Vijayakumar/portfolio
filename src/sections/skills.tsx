@@ -94,10 +94,7 @@ export default function Skills() {
     {
       title: "Tools & Environment",
       skills: [
-        {
-          name: "macOS",
-          icon: macosIcon,
-        },
+      
         {
           name: "VS Code",
           icon: vscodeIcon,
