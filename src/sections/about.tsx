@@ -19,13 +19,11 @@ export default function About() {
           </MotionDiv>
           <MotionDiv delayOffset={0.5}>
             <p>
-              My projects showcase my ability to tackle complex problems and develop innovative solutions. Notable examples include <span className="font-bold">Book-Blush Webiste</span>, a website where we sell, buy, read and rent books in online , and <span className="font-bold">ATM-Keypad Shuffling And Security</span>, which prevents the security of PINS from beign theft. 
+              My projects showcase my ability to tackle complex problems and develop innovative solutions. Notable examples include <span className="font-bold">Book-Blush Website</span>, a website where we sell, buy, read and rent books in online , and <span className="font-bold">ATM-Keypad Shuffling And Security</span>, which prevents the security of PINS from beign theft. 
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.6}>
-            <p>
-              When I'm not immersed in coding, I focus on <span className="font-bold">Designing</span> and <span className="font-bold">Developing</span>. I am committed to staying updated with emerging technologies and continuously enhancing my skill set.
-            </p>
+            
           </MotionDiv>
         </article>
       </div>
